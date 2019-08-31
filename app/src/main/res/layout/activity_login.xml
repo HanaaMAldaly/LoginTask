@@ -63,7 +63,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimen_20dp"
                 android:layout_marginEnd="@dimen/dimen_20dp"
-                android:hint="@string/email_phone">
+                android:hint="@string/email_phone"
+                android:layout_marginBottom="@dimen/dimen_10dp">
 
                 <com.hanaa.logintask.presentation.util.CustomTextLayoutEditText
                     android:id="@+id/login_email_edit_text"
