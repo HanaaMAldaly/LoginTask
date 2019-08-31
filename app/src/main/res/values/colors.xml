@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/dark_orange</color>
+    <color name="colorPrimaryDark">@color/light_orange</color>
+    <color name="colorAccent">@color/dark_orange</color>
+    <color name="light_orange">#EC9F05</color>
+    <color name="dark_orange">#FF4E00</color>
+    <color name="disable_orange">#ffc966</color>
+    <color name="gray">#F8F8F8</color>
+</resources>

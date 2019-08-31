@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginTask</string>
+    <string name="login">Login</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="empty_email">Email can\'t be empty</string>
+    <string name="empty_password">Password can\'t be empty</string>
+    <string name="invalid_login">Invlid Login</string>
+    <string name="email_phone">Email/Phone</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="dont_have_account"><![CDATA[don\'t have account? <a href="">Register</a>]]></string>
+    <string name="welcome_message">Hi ,</string>
+</resources>
