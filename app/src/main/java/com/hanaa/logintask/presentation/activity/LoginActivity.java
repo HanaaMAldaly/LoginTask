@@ -180,8 +180,8 @@ public class LoginActivity extends AppCompatActivity {
     private void bindPasswordEditText() {
         disposableBag.add(
                 RxTextView.textChanges(passwordEditText)
+                        .debounce(100, TimeUnit.MILLISECONDS)
                         .skip(1)
-                        .debounce(10, TimeUnit.MILLISECONDS)
                         .map(it -> it.toString())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe((it) -> viewModel.validatePassword(it))
