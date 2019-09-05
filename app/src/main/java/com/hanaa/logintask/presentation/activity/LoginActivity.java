@@ -169,8 +169,8 @@ public class LoginActivity extends AppCompatActivity {
     private void bindEmailEditText() {
         disposableBag.add(
                 RxTextView.textChanges(emailEditText)
+                        .debounce(100, TimeUnit.MILLISECONDS)
                         .skip(1)
-                        .debounce(10, TimeUnit.MILLISECONDS)
                         .map(it -> it.toString())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe((it) -> viewModel.validateEmail(it))
